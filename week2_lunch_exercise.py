@@ -3,7 +3,7 @@ address1 = raw_input("Enter the first address: ")
 address2 = raw_input("Enter the second address: ")
 address3 = raw_input("Enter the third address: ")
 
-#Make the address lowercause for easy testing
+#Make the address lowercase for easy testing
 address1lower = address1.lower()
 address2lower = address2.lower()
 address3lower = address3.lower()
@@ -24,7 +24,7 @@ elif (" se " in address1lower) == True:
 elif (" sw " in address1lower) == True:
 	SWlist.append(address1)
 else:
-	print "First address is not in a quardrant"
+	print "First address is not in a quadrant"
 
 #Use 'in' to search for quadrants in the second address
 if (" nw " in address2lower) == True:
@@ -36,7 +36,7 @@ elif (" se " in address2lower) == True:
 elif (" sw " in address2lower) == True:
 	SWlist.append(address2)
 else:
-	print "Second address is not in a quardrant"
+	print "Second address is not in a quadrant"
 
 #Use 'in' to search for quadrants in the thrid address
 if (" nw " in address3lower) == True:
@@ -48,7 +48,7 @@ elif (" se " in address3lower) == True:
 elif (" sw " in address3lower) == True:
 	SWlist.append(address3)
 else:
-	print "Third address is not in a quardrant"
+	print "Third address is not in a quadrant"
 
 
 #Print out the number of items and contents of each list
